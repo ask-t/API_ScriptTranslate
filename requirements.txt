@@ -5,4 +5,5 @@ gunicorn
 python-dotenv
 prettytable
 Flask-RESTful
+bs4
 ###### Requirements with Version Specifiers ######`
