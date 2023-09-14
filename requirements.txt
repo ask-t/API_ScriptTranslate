@@ -4,5 +4,5 @@ requests
 gunicorn
 python-dotenv
 prettytable
-flask_restful
+Flask-RESTful
 ###### Requirements with Version Specifiers ######`
