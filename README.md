@@ -6,8 +6,7 @@ Python 3
 
 Flask-RESTful
 
-## Get Scriptures
-### Get Old Testament Request
+## Get Old Testament Request
 ```js
 GET /api/ot?book={{book}}&chapter={{chapter}}&start={{start}}&end={{end}}
 ```
@@ -25,7 +24,7 @@ GET /api/ot?book={{book}}&chapter={{chapter}}&start={{start}}&end={{end}}
 ```
 
 
-### Get New Testament Request
+## Get New Testament Request
 ```js
 GET /api/nt?book={{book}}&chapter={{chapter}}&start={{start}}&end={{end}}
 ```
@@ -41,7 +40,7 @@ GET /api/nt?book={{book}}&chapter={{chapter}}&start={{start}}&end={{end}}
 }
 ```
 
-### Get Book of Mormon Request
+## Get Book of Mormon Request
 ```js
 GET /api/bom?book={{book}}&chapter={{chapter}}&start={{start}}&end={{end}}
 ```
@@ -57,7 +56,7 @@ GET /api/bom?book={{book}}&chapter={{chapter}}&start={{start}}&end={{end}}
 }
 ```
 
-### Get Doctrine and Covenants
+## Get Doctrine and Covenants
 ```js
 GET /api/dc?chapter={{chapter}}&start={{start}}&end={{end}}
 ```
@@ -74,7 +73,7 @@ GET /api/dc?chapter={{chapter}}&start={{start}}&end={{end}}
 }
 ```
 
-### Get Pearl of Great Price Request
+## Get Pearl of Great Price Request
 ```js
 GET /api/pgp?book={{book}}&chapter={{chapter}}&start={{start}}&end={{end}}
 ```
