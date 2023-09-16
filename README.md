@@ -6,6 +6,9 @@ Python 3
 
 Flask-RESTful
 
+## URL
+https://api-scripture.onrender.com
+
 ## Get Old Testament Request
 ```js
 GET /api/ot?book={{book}}&chapter={{chapter}}&start={{start}}&end={{end}}
