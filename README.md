@@ -18,7 +18,7 @@ GET /api/ot?book={{book}}&chapter={{chapter}}&start={{start}}&end={{end}}
 ```js
 200 OK
 ```
-```json
+```
 {
   "chapter": <String>,
   "English": <String>,
@@ -35,7 +35,7 @@ GET /api/nt?book={{book}}&chapter={{chapter}}&start={{start}}&end={{end}}
 ```js
 200 OK
 ```
-```json
+```
 {
   "chapter": <String>,
   "English": <String>,
@@ -51,7 +51,7 @@ GET /api/bom?book={{book}}&chapter={{chapter}}&start={{start}}&end={{end}}
 ```js
 200 OK
 ```
-```json
+```
 {
   "chapter": <String>,
   "English": <String>,
@@ -68,7 +68,7 @@ GET /api/dc?chapter={{chapter}}&start={{start}}&end={{end}}
 ```js
 200 OK
 ```
-```json
+```
 {
   "chapter": <String>,
   "English": <String>,
@@ -84,7 +84,7 @@ GET /api/pgp?book={{book}}&chapter={{chapter}}&start={{start}}&end={{end}}
 ```js
 200 OK
 ```
-```json
+```
 {
   "chapter": <String>,
   "English": <String>,
